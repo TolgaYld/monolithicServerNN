@@ -1,0 +1,5 @@
+FROM node:16.13.2
+WORKDIR /app
+RUN npm install -g nodemon
+RUN npm install -g pm2
+RUN npm install -g npm

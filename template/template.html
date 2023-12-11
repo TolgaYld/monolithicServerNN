@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pdf Document</title>
+</head>
+<body>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top" bgcolor="#ffe77b" style="background-color:#fff;">
+              <img height="107" width="369" src="../template/image/logoemail.png" alt="">
+            </td>
+            <td align="left" bgcolor="#ffe77b" style="background-color: #fff;">
+              <h2 style="font-weight: 900;color: brown;">NowNow</h2>
+              <p>Welfenstr. 5, 81543 München, Germany <br/> 
+                http://www.nownow.de | info@nownow.de +49 89 369369</p>
+            </td>
+        </tr>
+    </table> 
+    <h1 style="font-size: 30px;font-weight: 600; color: green; margin-top: 10px;">INVOICE</h1>
+    <table width="95%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+          <td width="30%" align="left" valign="top" bgcolor="#ffe77b" style="background-color:#fff;">
+            <p>Invoice To:</p>
+            <h3 style="font-weight: 800;color: brown;">Andi Urli</h3>
+          </td>
+          <td width="70%" align="left" bgcolor="#ffe77b" style="background-color: #fff;">             
+          </td>
+      </tr>
+      <tr>
+        <td width="30%" align="left" valign="top" bgcolor="#ffe77b" style="background-color:#fff;">
+          <p>Turkitch Köfte GmbH</p>
+          <p>Hayri der Chef</p>
+        </td>
+        <td width="70%" align="left" bgcolor="#ffe77b" style="background-color: #fff;">             
+        </td>
+      </tr>
+  </table>  
+      <table width="95%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="30%" align="left" valign="top" bgcolor="#ffe77b" style="background-color:#fff;">
+            <p>+49 152 5248 523</p>
+            <p>turkitch@gmail.com</p>
+          </td>
+          <td width="40%" align="left" bgcolor="#ffe77b" style="background-color: #fff;">             
+          </td>
+          <td width="30%" align="right" bgcolor="#ffe77b" style="background-color: #fff;">
+            <h4 style="font-weight: 700;color: #000000;">24.08.2021, München</h4> 
+            <h4 style="font-weight: 700;color: #000000;">INVOICE NO: NNA-333666999</h4>            
+          </td>
+        </tr>
+      </table>   
+      <table class="table" width="95%">
+          <thead>
+            <tr>
+              <th scope="col">Description</th>
+              <th scope="col">Advertise Time From:</th>
+              <th scope="col">Advertise Time To:</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- {{#each products.prodlist}} -->
+            <tr>
+              <td width="10%">
+                <!-- <img height="70" width="70" src="{{this.imgurl}}" alt=""> -->
+              </td>
+              <th scope="row" width="50%">
+                <!-- <h5 style="font-weight: 700;color:chocolate">{{this.}}</h5> -->
+                <p>Heute Döner Gratis!</p>
+              </th>
+              <td width="10%">01.08.2021 - 12:32</td>
+              <td width="10%">01.08.2021 - 14:50</td>
+              <td width="10%">$9.22</td>
+            </tr>
+            <!-- {{/each}} -->
+          </tbody>
+        </table>
+        <table width="95%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="90%"  align="right" style="font-size: 25px;font-weight: 700;color:darkred; background-color: #f6f6f6;">Preis inkl. MwSt.</td>
+            <td width="10%" align="right" style="background-color: lightgreen;"><h2 style="font-size: 25px;font-weight: 700;color:#fff;">${{'9.22'}}</h2></td>
+          </tr>
+          <tr>
+            <td width="90%"  align="right" style="font-size: 25px;font-weight: 700;color:darkred; background-color: #f6f6f6;">MwSt.</td>
+            <td width="10%" align="right" style="background-color: lightcoral;"><h2 style="font-size: 25px;font-weight: 700;color:#fff;">1.75</h2></td>
+          </tr>
+          <tr>
+            <td width="90%"  align="right" style="font-size: 25px;font-weight: 700;color:darkred; background-color: #f6f6f6;">Preis ohne MwSt.</td>
+            <td width="10%" align="right" style="background-color: lightgreen;"><h2 style="font-size: 25px;font-weight: 700;color:#fff;">7.47</h2></td>
+          </tr>
+        </table>
+        <table width="95%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="100%"  align="left" style="font-size: 25px;font-weight: 700;color:red; background-color: #f6f6f6;">Bitte keine faxen:</td>
+          </tr>
+          <tr>
+            <td width="100%"  align="left" style="font-size: 25px;font-weight: 700;color:#000; background-color: #f6f6f6;">Zahl innerhalb 14 Tagen du Hund!</td>
+          </tr>
+        </table>
+</body>
+</html>
